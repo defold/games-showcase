@@ -1,0 +1,14 @@
+{
+    "name": "Blocky Universe",
+    "description": "You are the unusual archer in this blocky adventure. Fight enemies, explore the world and defeat bosses in your journey to repair the portal and save the universe.",
+    "url": "https://poki.com/en/g/blocky-universe",
+    "developer": "d954mas",
+    "publisher": "d954mas",
+    "releasedate": "November 2023",
+    "platforms": "Android,HTML5,Poki",
+    "images": {
+        "full": "blocky-universe-full.png",
+        "half": "blocky-universe-half.png",
+        "third": "blocky-universe-third.png"
+    }
+}
