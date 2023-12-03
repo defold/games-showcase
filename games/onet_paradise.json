@@ -1,7 +1,7 @@
 {
 	"name": "Onet Paradise",
 	"description": "Find two identical tiles that can be connected with THREE or less straight lines!",
-	"url": "https://play.google.com/store/apps/details?id=com.potatojam.onet_paradise.match_two_tiles&hl=en",
+	"url": "https://potatojam.com/onet-paradise.html",
 	"images": {
 		"full": "onet_paradise-full.png",
 		"half": "onet_paradise-half.png",
@@ -9,6 +9,6 @@
 	},
 	"developer": "Potato Jam",
 	"publisher": "",
-	"platforms": "iOS, Android",
+	"platforms": "iOS, Android, Poki",
 	"releasedate": "2017"
 }
