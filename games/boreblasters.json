@@ -1,0 +1,14 @@
+{
+	"name": "BORE BLASTERS",
+	"description": "Blast through rocks with your machine gun drill. Collect rare gems, ores and ancient artefacts, upgrade your ship and unlock new abilities. Uncover the mysteries of the deep and the dangers that lurk below.",
+	"url": "https://store.steampowered.com/app/2398170/BORE_BLASTERS/",
+	"images": {
+		"full": "boreblasters-full.png",
+		"half": "boreblasters-half.png",
+		"third": "boreblasters-third.png"
+	},
+	"developer": "8BitSkull",
+	"publisher": "8BitSkull",
+	"platforms": "Steam (Windows, Linux, macOS)",
+	"releasedate": "March 2024"
+}
