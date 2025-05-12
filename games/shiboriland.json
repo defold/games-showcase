@@ -1,0 +1,14 @@
+{
+    "name": "Adventures in Shibori-Land",
+    "description": "A classic style platformer with spacious levels, bonuses, treasure hunts and boss battles. Two playable characters (currently) to choose from to be used to adventure with. The game features mini games played for bonuses. It feels like true classic style gaming for mobile devices.",
+    "url": "https://play.google.com/store/apps/details?id=com.genesyseast.shiboriland",
+    "developer": "Genesys East Games",
+    "publisher": "",
+    "releasedate": "February 24, 2025",
+    "platforms": "Android",
+    "images": {
+        "full": "shiboriland-full.png",
+        "half": "shiboriland-half.png",
+        "third": "shiboriland-third.png"
+    }
+}
