@@ -5,10 +5,11 @@
 	"images": {
 		"full": "familyisland-full.png",
 		"half": "familyisland-half.jpg",
-		"third": ""
+		"third": "familyisland-third.jpg"
 	},
-	"developer": "Melsoft",
+	"developer": "MoonActive",
 	"publisher": "",
 	"platforms": "iOS, Android",
-	"releasedate": "2019"
+	"releasedate": "2019",
+	"downloads": "50M+ on Google Play (Sep 2025)"
 }
