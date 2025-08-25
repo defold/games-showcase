@@ -2,10 +2,6 @@ name: Optimize PNG Images
 
 on:
   push:
-    # Only run when PNG images change
-    paths:
-      - 'games/**/*.png'
-      - 'games/**/*.PNG'
 
 permissions:
   contents: write
@@ -71,6 +67,7 @@ jobs:
           fi
 
       - name: Commit and push changes
+        id: commit
         if: always()
         run: |
           if ! git diff --quiet; then
@@ -79,6 +76,15 @@ jobs:
             git add -A
             git commit -m "chore(images): optimize PNGs via pngquant [skip-ci]"
             git push
+            echo "changes=true" >> "$GITHUB_OUTPUT"
           else
             echo "Nothing to commit."
+            echo "changes=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Trigger site rebuild workflow
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          event-type: optimize-images

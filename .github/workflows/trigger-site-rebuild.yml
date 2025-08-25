@@ -1,41 +1,46 @@
 name: Trigger site rebuild
 
-on: [push]
+on:
+  repository_dispatch:
+    types: [optimize-images]
+  workflow_dispatch:
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps: [
-        {
-            name: 'Skip based on commit message',
-            uses: veggiemonk/skip-commit@1.0.0,
-            env: {
-                COMMIT_FILTER: 'skip-ci'
-            }
-        },
-        { name: 'Checkout Code', uses: actions/checkout@v2 },
-        {
-            name: 'Lint Code Base',
-            uses: 'github/super-linter@v4',
-            env: {
-                VALIDATE_ALL_CODEBASE: false,
-                DEFAULT_BRANCH: 'master',
-                GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-            }
-        },
-        { name: 'Install Python', uses: actions/setup-python@v4, with: { python-version: 3.10.5, architecture: x64 } },
-        { name: 'Install Requests', run: 'pip install --user requests' },
-        { name: 'Update dates', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates' },
-        { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
-        { name: 'Commit changes', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} commit' },
-        {
-            name: 'Repository dispatch',
-            uses: defold/repository-dispatch@1.2.1,
-            with: {
-                repo: 'defold/defold.github.io',
-                token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
-                user: 'services@defold.se',
-                action: 'games-showcase'
-            }
-        }]
+    steps: [
+      {
+        name: 'Skip based on commit message',
+        if: "${{ github.event_name == 'push' }}",
+        uses: veggiemonk/skip-commit@1.0.0,
+        env: {
+          COMMIT_FILTER: 'skip-ci'
+        }
+      },
+      { name: 'Checkout Code', uses: actions/checkout@v2 },
+      {
+        name: 'Lint Code Base',
+        uses: 'github/super-linter@v4',
+        env: {
+          VALIDATE_ALL_CODEBASE: false,
+          DEFAULT_BRANCH: 'master',
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+        }
+      },
+      { name: 'Install Python', uses: actions/setup-python@v4, with: { python-version: 3.10.5, architecture: x64 } },
+      { name: 'Install Requests', run: 'pip install --user requests' },
+      { name: 'Update dates', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates' },
+      { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
+      { name: 'Commit changes', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} commit' },
+      {
+        name: 'Repository dispatch',
+        uses: defold/repository-dispatch@1.2.1,
+        with: {
+          repo: 'defold/defold.github.io',
+          token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
+          user: 'services@defold.se',
+          action: 'games-showcase'
+        }
+      }
+    ]
