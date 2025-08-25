@@ -26,15 +26,42 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pngquant
 
-      - name: Optimize PNG images
+      - name: Optimize changed PNG images
         shell: bash
         run: |
           set -euo pipefail
-          # Optimize all PNGs in games/images (safe to run repeatedly)
-          if [ -d games/images ]; then
-            find games/images -type f \( -iname '*.png' -o -iname '*.PNG' \) -print0 | \
-              xargs -0 -n1 -P 4 bash -lc 'pngquant --force --skip-if-larger --strip --speed 1 --quality=70-95 --ext .png "$0"'
+
+          BASE="${{ github.event.before }}"
+          # Handle initial push/new branch case where before is all zeros
+          if [ "$BASE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BASE" 2>/dev/null; then
+            BASE="$(git rev-parse HEAD^ 2>/dev/null || echo '')"
           fi
+
+          # List changed files in this push (added/modified/renamed)
+          CHANGED=$(git diff --name-only --diff-filter=AMR ${BASE:+"$BASE"} "$GITHUB_SHA" || true)
+          if [ -z "$CHANGED" ]; then
+            # Fallback to files in the last commit
+            CHANGED=$(git show --pretty='' --name-only "$GITHUB_SHA" || true)
+          fi
+
+          # Filter to PNGs under games/
+          mapfile -t PNGS < <(printf '%s\n' "$CHANGED" | grep -Ei '^games/.*\.png$' || true)
+
+          if [ "${#PNGS[@]}" -eq 0 ]; then
+            echo "No changed PNGs to optimize."
+            exit 0
+          fi
+
+          echo "Optimizing ${#PNGS[@]} changed PNG(s):"
+          printf ' - %s\n' "${PNGS[@]}"
+
+          # Use high quality to avoid visible artifacts
+          for f in "${PNGS[@]}"; do
+            [ -f "$f" ] || continue
+            # pngquant exits non-zero when quality would drop below min; don't fail the job for that
+            pngquant --force --skip-if-larger --strip --speed 1 --quality=90-100 --ext .png "$f" || true
+          done
+
           # Show summary of any changes
           if ! git diff --quiet; then
             echo "Optimization produced changes. Files to update:"
@@ -55,4 +82,3 @@ jobs:
           else
             echo "Nothing to commit."
           fi
-
