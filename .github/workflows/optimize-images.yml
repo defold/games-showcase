@@ -55,11 +55,11 @@ jobs:
           echo "Optimizing ${#PNGS[@]} changed PNG(s):"
           printf ' - %s\n' "${PNGS[@]}"
 
-          # Use high quality to avoid visible artifacts
+          # Optimize with verbose output and target quality window
           for f in "${PNGS[@]}"; do
             [ -f "$f" ] || continue
             # pngquant exits non-zero when quality would drop below min; don't fail the job for that
-            pngquant --force --skip-if-larger --strip --speed 1 --quality=90-100 --ext .png "$f" || true
+            pngquant -v --force --skip-if-larger --strip --speed 1 --quality=78-94 --ext .png "$f" || true
           done
 
           # Show summary of any changes
