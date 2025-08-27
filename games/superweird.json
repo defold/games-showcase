@@ -1,0 +1,13 @@
+{
+    "name": "SuperWEIRD",
+	"description": "A co-op automation adventure set in… we're not sure? But it's ok: just fix everything to get outta here, maybe. Use flags to set tasks for hordes of rusty robots! Make them work for you, as they march towards their doom. Sounds perfectly normal, right?",
+    "url": "https://store.steampowered.com/app/3818770/SuperWEIRD/",
+    "developer": "Luden.io",
+    "releasedate": "2026",
+    "platforms": "iOS,Android,macOS,Windows,Linux,HTML5,Steam,Poki,itch.io",
+    "images": {
+        "full": "superweird-full.jpg",
+        "half": "superweird-half.jpg",
+        "third": "superweird-third.jpg"
+    }
+}
