@@ -1,0 +1,14 @@
+{
+    "name": "Tiny Racing",
+	"description": "A nostalgic top-down racing game with vibrant pixel art. Choose from unique vehicles, conquer contrasting tracks, and master different modes. With intuitive arcade controls, experience high-speed excitement and become the ultimate racing champion in this retro race adventure! ",
+    "url": "https://store.steampowered.com/app/3358900/Tiny_Racing/",
+    "developer": "171Dev",
+    "publisher": "171Dev",
+    "releasedate": "June 2025",
+    "platforms": "Steam (Windows, Linux), Nintendo Switch",
+    "images": {
+        "full": "tiny-racing-full.jpg",
+        "half": "tiny-racing-half.jpg",
+        "third": "tiny-racing-third.jpg"
+    }
+}
