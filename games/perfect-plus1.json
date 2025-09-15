@@ -1,0 +1,14 @@
+{
+    "name": "Perfect+1",
+    "description": "Perfect+1 is a bite-sized, retro-styled, puzzle game in which you navigate through 48 mazes (of various sizes) in hope of reaching the exit. DO NOT take the shortest path to the exit. Instead, find a path with exactly 1 more move over perfection. If the shortest path is 3 moves, find a path that takes 4. Find Perfect+1.",
+    "url": "https://hellhog.itch.io/perfect-plus1",
+    "developer": "Hell Hog Games",
+    "publisher": "Hell Hog Games",
+    "releasedate": "August 2025",
+    "platforms": "Android,macOS,Windows,Linux,HTML5,itch.io",
+    "images": {
+        "full": "perfect-plus1-full.png",
+        "half": "perfect-plus1-half.png",
+        "third": "perfect-plus1-third.png"
+    }
+}
