@@ -1,0 +1,14 @@
+{
+    "name": "Hotel Rush : Merge Story",
+    "description": "A casual merge-2 puzzle game. Merge items, discover treasures, and restore each floor, revealing new challenges and surprises.",
+    "url": "https://play.google.com/store/apps/details?id=com.happygames.mergehotel",
+    "developer": "Happy Games Studio",
+    "publisher": "",
+    "release_date": "2021",
+    "platforms": "iOS,Android,macOS,Windows,Linux,HTML5,Steam,Poki,itch.io,Kongregate,Facebook Instant Games",
+    "images": {
+        "full": "hotel-rush-full.png",
+        "half": "hotel-rush-half.png",
+        "third": "hotel-rush-third.png"
+    }
+}
