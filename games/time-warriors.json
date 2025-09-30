@@ -1,0 +1,14 @@
+{
+    "name": "Time Warriors",
+    "description": "A strategy game where you lead your army through history, from the Stone Age to futuristic battles. Upgrade your troops, build powerful bases, and use unique units and tactics to defeat your enemies.",
+    "url": "https://www.crazygames.com/game/timewarriors",
+    "developer": "Happy Games Studio",
+    "publisher": "Happy Games Studio",
+    "release_date": "October 2024",
+    "platforms": "iOS, Web",
+    "images": {
+        "full": "time-warriors-full.png",
+        "half": "time-warriors-half.png",
+        "third": "time-warriors-third.png"
+    }
+}
