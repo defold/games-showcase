@@ -1,0 +1,14 @@
+{
+    "name": "Once Upon a Galaxy",
+    "description": "An easy-to-learn card battler with incredible strategic depth and near infinite fun! Which of your favorite characters from myth and fairy tale will you choose?",
+    "url": "https://galaxy.fun/",
+    "developer": "Million Dreams Games",
+    "publisher": "",
+    "releasedate": "July 2025",
+    "platforms": "iOS, Android, Steam (Windows, macOS, Linux)",
+    "images": {
+        "full": "once-upon-a-galaxy-full.jpg",
+        "half": "once-upon-a-galaxy-half.jpg",
+        "third": "once-upon-a-galaxy-third.jpg"
+    }
+}
