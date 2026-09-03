@@ -1,0 +1,15 @@
+{
+    "description": "Jeepney Stories is a heartwarming, slice-of-life, funny and chill visual novel about family, chances, getting old and living in the third world set in the bustling city of Manila, Philippines.",
+    "developer": "Kuyi Mobile",
+    "images": {
+        "full": "",
+        "half": "jeepney-half.webp",
+        "third": "jeepney-third.webp"
+    },
+    "name": "Jeepney Stories",
+    "platforms": "Windows, macOS, Steam",
+    "publisher": "Kuyi Mobile",
+    "releasedate": "March 2025",
+    "showcase": "half",
+    "url": "https://store.steampowered.com/app/3203470/Jeepney_Stories/"
+}

@@ -1,0 +1,14 @@
+{
+    "description": "Built with Defold for Poki Hill Climb Racing Lite brings Fingersoft’s classic physics-based driving formula to the browser, challenging players to balance speed, fuel, and gravity across steep hills, tricky jumps, and chaotic terrain. It reimagines the original mobile hit, yet still captures everything that made the original so memorable — simple controls, unpredictable physics, and that irresistible “one more run” feeling — in a format that feels right at home on the web.",
+    "developer": "Fingersoft",
+    "images": {
+        "full": "hillclimbracinglite-full.webp",
+        "half": "hillclimbracinglite-half.webp",
+        "third": "hillclimbracinglite-third.webp"
+    },
+    "name": "Hill Climb Racing Lite",
+    "platforms": "Poki",
+    "releasedate": "2025",
+    "showcase": "full",
+    "url": "https://poki.com/pl/g/hill-climb-racing-lite"
+}

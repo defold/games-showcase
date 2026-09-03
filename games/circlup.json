@@ -1,0 +1,15 @@
+{
+    "description": "Circlup is a minimalist experience where the primary task is to complete a circle across 50 challenges, with every level hiding a one-of-a-kind rule to reveal.",
+    "developer": "Son of a Byte",
+    "images": {
+        "full": "",
+        "half": "circlup-half.webp",
+        "third": "circlup-third.webp"
+    },
+    "name": "Circlup",
+    "platforms": "Android",
+    "publisher": "Son of a Byte",
+    "releasedate": "April 2026",
+    "showcase": "half",
+    "url": "https://play.google.com/store/apps/details?id=com.circlup.app"
+}

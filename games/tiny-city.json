@@ -1,0 +1,14 @@
+{
+    "description": "An open-source example of a beautiful tiny city with cars and planes using graph pathfinding to navigate in the area. It’s a technical demo rather than a full game, showcasing a small animated scene with traffic and atmosphere thanks to nice lighting work.",
+    "developer": "Selim Anaç",
+    "images": {
+        "full": "tiny_city-full.webp",
+        "third": "tiny_city-third.webp"
+    },
+    "license": "custom",
+    "name": "Tiny City",
+    "publisher": "",
+    "releasedate": "November 2025",
+    "showcase": "full",
+    "url": "https://github.com/selimanac/defold-tiny-city"
+}

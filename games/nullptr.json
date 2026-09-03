@@ -1,0 +1,14 @@
+{
+    "description": "A real-time tactical hacking puzzle where every move reshapes the challenge. Infiltrate megacorp servers, reroute connections, gather valuable data, and outsmart evolving defenses, all while racing against the clock and the ever-present threat of adaptive sentinels.",
+    "developer": "Jeferson Silva",
+    "images": {
+        "full": "",
+        "half": "nullptr-half.webp",
+        "third": "nullptr-third.webp"
+    },
+    "name": "NULLPTR",
+    "platforms": "Windows, Linux, Steam",
+    "releasedate": "2025",
+    "showcase": "half",
+    "url": "https://store.steampowered.com/app/1579650/NULLPTR/"
+}

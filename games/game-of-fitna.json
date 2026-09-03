@@ -1,0 +1,15 @@
+{
+    "description": "Game of Fitna Vol. 1: A thrilling death game visual novel set in 2030. Play as Zayn, a high school student thrown into sinister survival games known as \"TEST.\" Fight for your life, uncover shocking truths, and face intense moral dilemmas in this mature, thought-provoking experience.",
+    "developer": "FIAgames",
+    "images": {
+        "full": "gameoffitna-full.webp",
+        "half": "gameoffitna-half.webp",
+        "third": "gameoffitna-third.webp"
+    },
+    "name": "Game of Fitna",
+    "platforms": "Windows, macOS, Linux, Steam",
+    "publisher": "FIAgames",
+    "releasedate": "2026",
+    "showcase": "full",
+    "url": "https://store.steampowered.com/app/2725340/Game_of_Fitna_Vol_1/"
+}

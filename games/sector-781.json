@@ -1,0 +1,15 @@
+{
+    "description": "Battle your way through 3 realms of 'Sector 781', a pixel art Metroidvania platformer. Upgrade your character and weapons. Collect shards to increase your energy supply. Use teleports to navigate around the realms. Shoot things that move and some that don't.",
+    "developer": "171Dev",
+    "images": {
+        "full": "",
+        "half": "sector-half.webp",
+        "third": "sector-third.webp"
+    },
+    "name": "Sector 781",
+    "platforms": "Nintendo Switch, Windows, Linux, Steam, Poki, Web",
+    "publisher": "",
+    "releasedate": "2020",
+    "showcase": "half",
+    "url": "https://www.nintendo.com/us/store/products/sector-781-switch/"
+}
