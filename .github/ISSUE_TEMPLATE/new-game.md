@@ -1,6 +1,6 @@
 ---
 name: New game
-about: Submit a new game for inclusion in the Defold Showcase/Games page on www.defold.com/showcase
+about: Submit a new game for inclusion in the Defold Showcase page on www.defold.com/showcase
 title: ''
 labels: ''
 assignees: ''
@@ -24,16 +24,16 @@ assignees: ''
 }
 ```
 
-* `name` - (REQUIRED) Name of the awesome Defold game.
-* `description` - (REQUIRED) Short text describing the game.
+* `name` - (REQUIRED) Name of the Defold game.
+* `description` - (REQUIRED) Text describing the game.
 * `url` - (REQUIRED) Link to a game or store page.
 * `developer` - (REQUIRED) Name of the developer/studio.
 * `publisher` - (OPTIONAL) Name of the publisher.
-* `release_date` - (REQUIRED) Date of release (Month Year, eg April 2020).
+* `releasedate` - (REQUIRED) Date of release (month year, eg April 2020, or just year).
 * `platforms` - (REQUIRED) The platforms where the game can be played. Comma separated list.
-* `images` - (REQUIRED) Filenames of images that can be used when presenting the asset.
-  * `full` - (REQUIRED) Filename of attached image to use as full width image. PNG or JPG. Recommended size is 3000x750. Name: game-name-full.png|jpg
-  * `half` - (REQUIRED) Filename of attached image to use as half width image. PNG or JPG. Recommended size is 1200x600 pixels. Name: game-name-half.png|jpg
-  * `third` - (REQUIRED) Filename of attached image to use as one third width image. PNG or JPG. Recommended size is 800x600 pixels. Name: game-name-third.png|jpg
+* `images` - (REQUIRED) Filenames of the submitted images. WebP is preferred, but PNG/JPG source images are accepted on the issue and will be optimized and converted to WebP when preparing the repository PR.
+  * `full` - Filename for the full-width card. Target size: 2000x750. Name: `game-name-full.webp`.
+  * `half` - Filename for the two-column/mobile card. Target size: 1200x600. Name: `game-name-half.webp`.
+  * `third` - Filename for carousel/compact cards. Target size: 800x600. Name: `game-name-third.webp`.
 
-Note: We retain the right to not accept a submitted game and we decide if the game goes on the Showcase or Games page
+Note: The Defold team decides whether to accept a submitted game and where it should appear when preparing and reviewing the repository PR..
