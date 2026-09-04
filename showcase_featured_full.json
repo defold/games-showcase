@@ -3,6 +3,7 @@
     "brdf",
     "hillclimbracinglite",
     "lights-shadows",
+    "micromacro_downtown_detective",
     "sprint_city",
     "tiny-city",
     "monkeymart",
@@ -18,5 +19,5 @@
     "punch_legend_simulator",
     "drills_merge_master",
     "hotel-rush",
-    "game-of-fitna"
+    "game-of-fitna",
 ]
