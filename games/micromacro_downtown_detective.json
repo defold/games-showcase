@@ -1,0 +1,15 @@
+{
+    "description": "MicroMacro: Downtown Detective is a mobile adaptation of the award-winning board game series MicroMacro: Crime City. On one huge, continuous, hand-drawn city map, you follow suspects across different times and places, searching for clues and making clever deductions to piece together witty, twisted crime cases.",
+    "developer": "Soft Boiled Games",
+    "images": {
+        "full": "micromacro_downtown_detective-full.webp",
+        "half": "micromacro_downtown_detective-half.webp",
+        "third": "micromacro_downtown_detective-third.webp"
+    },
+    "name": "MicroMacro: Downtown Detective",
+    "platforms": "iOS, Android",
+    "publisher": "",
+    "releasedate": "August 2025",
+    "showcase": "full",
+    "url": "https://www.micromacro-mobile.com"
+}
