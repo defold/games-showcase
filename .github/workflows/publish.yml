@@ -1,0 +1,26 @@
+name: Publish
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    uses: ./.github/workflows/validate.yml
+
+  publish:
+    name: Publish
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update defold.com
+        uses: defold/repository-dispatch@1.2.1
+        with:
+          repo: defold/defold.github.io
+          token: ${{ secrets.SERVICES_GITHUB_TOKEN }}
+          user: services@defold.se
+          action: games-showcase
