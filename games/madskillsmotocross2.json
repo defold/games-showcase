@@ -1,0 +1,14 @@
+{
+    "description": "A fast-paced side-scrolling motocross racing game, where players compete on challenging dirt tracks using precise physics-based bike controls, mastering jumps, speed, and balance to beat rivals and set the best times. The game features multiple bikes to unlock, dozens of tracks, and online competitions where players race against others worldwide. Its responsive controls and competitive gameplay have made it one of the most popular motocross games on mobile platforms.",
+    "developer": "Turborilla",
+    "images": {
+        "full": "madskillsmotocross2-full.webp",
+        "half": "madskillsmotocross2-half.webp",
+        "third": "madskillsmotocross2-third.webp"
+    },
+    "name": "Mad Skills Motocross 2",
+    "platforms": "Poki",
+    "releasedate": "2025",
+    "showcase": "full",
+    "url": "https://poki.com/en/g/mad-skills-motocross-2"
+}

@@ -4,11 +4,12 @@
 	"url": "https://play.google.com/store/apps/details?id=it.lrx.blockunlock&hl=en",
 	"images": {
 		"full": "",
-		"half": "blocksunlock-half.png",
-		"third": "blocksunlock-third.png"
+		"half": "blocksunlock-half.webp",
+		"third": "blocksunlock-third.webp"
 	},
 	"developer": "lrx",
 	"publisher": "",
 	"platforms": "Android",
-	"releasedate": "October 2019"
+	"releasedate": "October 2019",
+	"showcase": "more-games"
 }

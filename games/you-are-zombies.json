@@ -1,0 +1,15 @@
+{
+    "description": "A reverse tower defense game where you play as the zombies and attack human fortifications instead of defending against them. The core idea is simple: you’re not building towers, you’re overwhelming them with massive zombie hordes.",
+    "developer": "Aeolian codeLab",
+    "images": {
+        "full": "",
+        "half": "you-are-zombies-half.webp",
+        "third": "you-are-zombies-third.webp"
+    },
+    "name": "You are Zombies",
+    "platforms": "Android",
+    "publisher": "",
+    "releasedate": "February 2026",
+    "showcase": "more-games",
+    "url": "https://play.google.com/store/apps/details?id=com.youarethezombies.reverse.towerdefense"
+}

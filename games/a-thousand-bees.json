@@ -1,0 +1,14 @@
+{
+    "description": "Spot the bees in this lovingly hand-illustrated hidden objects game. A literal thousand bees are spread out over a dozen beautiful levels. Can you find all secret levels, too? Enjoy a perfect summer day, deeply inspired by the cozy honeycore aesthetic.",
+    "developer": "Make It a Triple",
+    "images": {
+        "full": "",
+        "half": "a-thousand-bees-half.webp",
+        "third": "a-thousand-bees-third.webp"
+    },
+    "name": "A Thousand Bees",
+    "platforms": "Windows, Linux, Steam",
+    "releasedate": "2026",
+    "showcase": "half",
+    "url": "https://store.steampowered.com/app/4281370/A_Thousand_Bees/"
+}

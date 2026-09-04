@@ -7,8 +7,9 @@
     "releasedate": "August 2020",
     "platforms": "iOS, Android",
     "images": {
-        "full": "applespider-full.png",
-        "half": "applespider-half.png",
-        "third": "applespider-third.png"
-    }
+        "full": "applespider-full.webp",
+        "half": "applespider-half.webp",
+        "third": "applespider-third.webp"
+    },
+    "showcase": "more-games"
 }

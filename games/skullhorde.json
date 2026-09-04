@@ -1,0 +1,14 @@
+{
+    "description": "Skull Horde is an auto battler dungeon crawler where you play as a flying skull necromancer. Find powerful loot and create overpowered builds. Summon a horde of skeletons in a battle of bone versus flesh! Explore procedurally generated dungeons while collecting loot and building your squad.",
+    "developer": "8BitSkull",
+    "images": {
+        "full": "skull_horde-full.webp",
+        "third": "skull_horde-third.webp"
+    },
+    "name": "Skull Horde",
+    "platforms": "Steam (Windows, Linux, macOS)",
+    "publisher": "8BitSkull",
+    "releasedate": "2026",
+    "showcase": "full",
+    "url": "https://store.steampowered.com/app/3199360/Skull_Horde/"
+}

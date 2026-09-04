@@ -3,11 +3,12 @@
 	"description": "Enter an enchanting world full of wonders, monsters, and match-making adventure with Monster Duo!",
 	"url": "https://poki.com/en/g/monster-duo",
 	"images": {
-		"full": "monster_duo-full.png",
-		"half": "monster_duo-half.png",
-		"third": "monster_duo-third.png"
+		"full": "monster_duo-full.webp",
+		"half": "monster_duo-half.webp",
+		"third": "monster_duo-third.webp"
 	},
 	"developer": "Potato Jam",
 	"publisher": "",
-	"platforms": "iOS, Android, Poki"
+	"platforms": "iOS, Android, Poki",
+	"showcase": "more-games"
 }

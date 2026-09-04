@@ -7,8 +7,9 @@
     "releasedate": "July 2025",
     "platforms": "iOS, Android, Steam (Windows, macOS, Linux)",
     "images": {
-        "full": "once-upon-a-galaxy-full.jpg",
-        "half": "once-upon-a-galaxy-half.jpg",
-        "third": "once-upon-a-galaxy-third.jpg"
-    }
+        "full": "once-upon-a-galaxy-full.webp",
+        "half": "once-upon-a-galaxy-half.webp",
+        "third": "once-upon-a-galaxy-third.webp"
+    },
+    "showcase": "full"
 }

@@ -1,0 +1,14 @@
+{
+    "description": "An open-source development kit to create a game with real-time shadows from a single light source and many point light sources. It includes a ready-made demo with extras, there’s also a separate Fog of War branch that adds a fog shader/Lua module, and a pathfinding module",
+    "developer": "Dragosha",
+    "images": {
+        "full": "lights-shadows-full.webp",
+        "third": "lights-shadows-third.webp"
+    },
+    "license": "MIT",
+    "name": "Lights and Shadows",
+    "publisher": "",
+    "releasedate": "September 2022",
+    "showcase": "full",
+    "url": "https://github.com/Dragosha/defold-light-and-shadows"
+}

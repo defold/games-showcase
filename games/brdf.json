@@ -1,0 +1,14 @@
+{
+    "description": "It is an advanced open-source deferred rendering sample for the Defold engine, featuring a G-buffer pipeline (albedo, normals, roughness, depth) and a BRDF/PBR-style lighting pass. It includes tiled light culling, cubemap shadow mapping with soft shadows, and volumetric lighting for atmospheric light rays. The demo also showcases post-processing like fisheye or chromatic aberration.",
+    "developer": "Mikhail Martianov",
+    "images": {
+        "full": "brdf-full.webp",
+        "third": "brdf-third.webp"
+    },
+    "license": "CC-BY-4.0",
+    "name": "BRDF Deferred Rendering Example",
+    "publisher": "",
+    "releasedate": "November 2025",
+    "showcase": "full",
+    "url": "https://github.com/martianovdev/Defold-BRDF-Deferred-Rendering-V2"
+}

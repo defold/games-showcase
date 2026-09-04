@@ -4,11 +4,12 @@
 	"url": "https://store.steampowered.com/app/2616100/Plague_Lords/",
 	"developer": "Red Unit Studios",
 	"publisher": "HypeTrain Digital",
-	"releasedate": "Q3 2024",
-	"platforms": "Windows, Steam, Switch",
+	"releasedate": "2026",
+	"platforms": "Windows, Steam",
 	"images": {
-		"full": "plaguelords-full.png",
-		"half": "plaguelords-half.png",
-		"third": "plaguelords-third.png"
-	}
+		"full": "plaguelords-full.webp",
+		"half": "plaguelords-half.webp",
+		"third": "plaguelords-third.webp"
+	},
+	"showcase": "full"
 }

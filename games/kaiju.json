@@ -1,0 +1,15 @@
+{
+    "description": "Lead a team of survivors into the abandoned Kaiju Control Force facilities, where bioengineered rats escaped and research went awry long ago, in this one-screen arcade platformer. Jump, climb and buy items from vending machines to reach the Mecha Kaiju Maintenance Bay and reclaim our city!",
+    "developer": "PlayMedusa",
+    "images": {
+        "full": "",
+        "half": "kaiju-half.webp",
+        "third": "kaiju-third.webp"
+    },
+    "name": "Kaiju Control Force",
+    "platforms": "Windows, Linux, Steam, Web",
+    "publisher": "Aurita Games",
+    "releasedate": "November 2024",
+    "showcase": "half",
+    "url": "https://store.steampowered.com/app/3268730/Kaiju_Control_Force/"
+}

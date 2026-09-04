@@ -1,0 +1,14 @@
+{
+    "description": "In this sideways scrolling shmup, take control of your spaceship and navigate through vibrant pixelated environments filled with hordes of enemy spacecraft. Power-up your ship and weapons, dodge enemy fire while blasting through each stage. Survive the onslaught and emerge victorious!",
+    "developer": "171Dev",
+    "images": {
+        "full": "",
+        "half": "tameshi-half.webp",
+        "third": "tameshi-third.webp"
+    },
+    "name": "Tameshi",
+    "platforms": "Nintendo Switch, Windows, Steam",
+    "releasedate": "2023",
+    "showcase": "more-games",
+    "url": "https://store.steampowered.com/app/1954720/Tameshi/"
+}

@@ -1,0 +1,15 @@
+{
+    "description": "A relaxed cleaning and renovation simulation where players restore messy rooms by repairing tiles, removing stains, repainting walls, upgrading skills, and hiring helpers.",
+    "developer": "Kuyi Mobile",
+    "images": {
+        "full": "",
+        "half": "clean-up-half.webp",
+        "third": "clean-up-third.webp"
+    },
+    "name": "Cleanup Crew",
+    "platforms": "Poki, HTML5",
+    "publisher": "Kuyi Mobile",
+    "releasedate": "April 2026",
+    "showcase": "half",
+    "url": "https://poki.com/en/g/cleanup-crew"
+}

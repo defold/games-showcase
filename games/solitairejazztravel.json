@@ -7,8 +7,9 @@
 	"releasedate": "April 2021",
 	"platforms": "iOS, Android, HTML5",
 	"images": {
-		"full": "solitairejazztravel-full.png",
-		"half": "solitairejazztravel-half.png",
-		"third": "solitairejazztravel-third.png"
-	}
+		"full": "solitairejazztravel-full.webp",
+		"half": "solitairejazztravel-half.webp",
+		"third": "solitairejazztravel-third.webp"
+	},
+	"showcase": "half"
 }

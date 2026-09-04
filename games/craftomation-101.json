@@ -3,12 +3,13 @@
     "description": "You land on a frozen planet in a tiny rocket with a robot inside. Harvest and combine materials to discover new ones. Use visual programming to make the robot do the tiresome work for you. Slowly build a gang of self-sustaining robot workers and watch them terraform the planet.",
     "url": "https://luden.io/craftomation/",
     "developer": "Luden.io",
-    "publisher": "",
+    "publisher": "Luden.io",
     "releasedate": "February 2024",
-    "platforms": "iOS, Android, macOS, Windows, Linux, HTML5, Steam, Poki, itch.io",
+    "platforms": "Windows, macOS, Linux, Steam, Poki, itch.io, HTML5",
     "images": {
-        "full": "craftomation-101-full.png",
-        "half": "craftomation-101-half.png",
-        "third": "craftomation-101-third.png"
-    }
+        "full": "craftomation-101-full.webp",
+        "half": "craftomation-101-half.webp",
+        "third": "craftomation-101-third.webp"
+    },
+    "showcase": "full"
 }

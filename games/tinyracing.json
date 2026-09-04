@@ -7,8 +7,9 @@
     "releasedate": "June 2025",
     "platforms": "Steam (Windows, Linux), Nintendo Switch",
     "images": {
-        "full": "tiny-racing-full.jpg",
-        "half": "tiny-racing-half.jpg",
-        "third": "tiny-racing-third.jpg"
-    }
+        "full": "tiny-racing-full.webp",
+        "half": "tiny-racing-half.webp",
+        "third": "tiny-racing-third.webp"
+    },
+    "showcase": "half"
 }

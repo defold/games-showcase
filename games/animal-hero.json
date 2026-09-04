@@ -1,0 +1,15 @@
+{
+    "description": "Animal Hero is a free-to-play, cross-platform MMORPG adventure game that will surprise you with its unique storyline, captivating gameplay, and colorful graphics. In a post-apocalyptic world where humans have mysteriously vanished, intelligent animals have taken charge of rebuilding civilization.",
+    "developer": "Maningame",
+    "images": {
+        "full": "",
+        "half": "animal-hero-half.webp",
+        "third": ""
+    },
+    "name": "Animal Hero: Mobile MMORPG",
+    "platforms": "Android",
+    "publisher": "",
+    "releasedate": "2025",
+    "showcase": "half",
+    "url": "https://play.google.com/store/apps/details?id=app.animalhero.gp&hl=en"
+}

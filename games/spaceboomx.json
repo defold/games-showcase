@@ -4,11 +4,13 @@
    "url": "https://apps.apple.com/de/app/spaceboomx/id1543264384?l=en",
    "developer": "Lutz Harder",
    "publisher": "Lunius Entertainment",
-   "releasedate": "Jan 2020",
+   "releasedate": "January 2020",
    "platforms": "iOS",
    "images": {
        "full": "",
-       "half": "spaceboomx-half.png",
-       "third": "spaceboomx-third.png"
-   }
+       "half": "spaceboomx-half.webp",
+       "third": "spaceboomx-third.webp"
+   },
+   "release_date": "January 2020",
+   "showcase": "more-games"
 }

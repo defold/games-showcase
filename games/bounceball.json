@@ -7,8 +7,9 @@
   "releasedate": "June 2025",
   "platforms": "Android,Poki",
   "images": {
-    "full": "bounceball-full.png",
-    "half": "bounceball-half.png",
-    "third": "bounceball-third.png"
-  }
+    "full": "bounceball-full.webp",
+    "half": "bounceball-half.webp",
+    "third": "bounceball-third.webp"
+  },
+  "showcase": "half"
 }

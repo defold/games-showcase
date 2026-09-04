@@ -5,10 +5,11 @@
     "developer": "Hell Hog Games",
     "publisher": "Hell Hog Games",
     "releasedate": "August 2025",
-    "platforms": "Android,macOS,Windows,Linux,HTML5,itch.io",
+    "platforms": "Android, macOS, Windows, Linux, HTML5, itch.io",
     "images": {
-        "full": "perfect-plus1-full.png",
-        "half": "perfect-plus1-half.png",
-        "third": "perfect-plus1-third.png"
-    }
+        "full": "perfect-plus1-full.webp",
+        "half": "perfect-plus1-half.webp",
+        "third": "perfect-plus1-third.webp"
+    },
+    "showcase": "more-games"
 }

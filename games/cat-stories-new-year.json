@@ -7,8 +7,9 @@
     "releasedate": "December 2020",
     "platforms": "Windows, itch.io",
     "images": {
-        "full": "cat-stories-new-year-full.png",
-        "half": "cat-stories-new-year-half.png",
-        "third": "cat-stories-new-year-third.png"
-    }
+        "full": "cat-stories-new-year-full.webp",
+        "half": "cat-stories-new-year-half.webp",
+        "third": "cat-stories-new-year-third.webp"
+    },
+    "showcase": "more-games"
 }

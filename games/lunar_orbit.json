@@ -3,12 +3,13 @@
 	"description": "It is a game that will show you how easy and simple physics works in the space! You control the asteroid. It contains elements that can create life when they interact with water. Guide the asteroid to blue planets to inhabit them.",
 	"url": "https://apps.apple.com/app/lunar-orbit-space-strategy/id1486762718",
 	"images": {
-		"full": "lunar_orbit-full.png",
-		"half": "lunar_orbit-half.png",
-		"third": "lunar_orbit-third.png"
+		"full": "lunar_orbit-full.webp",
+		"half": "lunar_orbit-half.webp",
+		"third": "lunar_orbit-third.webp"
 	},
 	"developer": "DashApps",
 	"publisher": "",
 	"platforms": "iOS",
-	"releasedate": "April 2020"
+	"releasedate": "April 2020",
+	"showcase": "more-games"
 }

@@ -1,0 +1,14 @@
+{
+    "description": "The classic Sudoku puzzle is a numbers-based brain teaser. The goal of the game is to complete each level, progressing from the beginner to master, to improve your Sudoku ranking.",
+    "developer": "OpenMyGame",
+    "images": {
+        "full": "",
+        "half": "sudoku-master-half.webp",
+        "third": "sudoku-master-third.webp"
+    },
+    "name": "Sudoku Master",
+    "platforms": "Android, iOS, HTML5, Facebook Instant",
+    "releasedate": "2025",
+    "showcase": "more-games",
+    "url": "https://play.google.com/store/apps/details?id=com.openmygame.games.android.sudokumaster&hl=en&gl=US"
+}

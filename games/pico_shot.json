@@ -5,9 +5,10 @@
 	"images": {
 		"full": "",
 		"half": "",
-		"third": "picoshot-third.png"
+		"third": "picoshot-third.webp"
 	},
 	"developer": "Ben James",
 	"publisher": "",
-	"platforms": "HTML5"
+	"platforms": "HTML5",
+	"showcase": "more-games"
 }

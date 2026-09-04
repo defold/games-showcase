@@ -3,12 +3,14 @@
 	"description": "Find as many words as you can! Train your mind and vocabulary!",
 	"url": "https://yandex.ru/games/app/98073/",
 	"images": {
-		"full": "word_search-full.png",
-		"half": "word_search-half.png",
-		"third": "word_search-third.png"
+		"full": "word_search-full.webp",
+		"half": "word_search-half.webp",
+		"third": "word_search-third.webp"
 	},
 	"developer": "OpenMyGame",
 	"publisher": "",
 	"platforms": "Yandex.Games",
-	"releasedate": "2019"
+	"releasedate": "2019",
+	"showcase": "more-games",
+	"yandex": "yes"
 }
