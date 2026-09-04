@@ -7,8 +7,9 @@
     "releasedate": "August 2025",
     "platforms": "Android, macOS, Windows, Linux, HTML5, Steam, itch.io, Google Play",
     "images": {
-        "full": "warnament-full.jpg",
-        "half": "warnament-half.jpg",
-        "third": "warnament-third.jpg"
-    }
+        "full": "warnament-full.webp",
+        "half": "warnament-half.webp",
+        "third": "warnament-third.webp"
+    },
+    "showcase": "full"
 }

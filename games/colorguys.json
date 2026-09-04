@@ -7,8 +7,9 @@
     "releasedate": "October 20, 2021",
     "platforms": "Windows, Steam",
     "images": {
-        "full": "colorguys-full.png",
-        "half": "colorguys-half.png",
-        "third": "colorguys-third.png"
-    }
+        "full": "colorguys-full.webp",
+        "half": "colorguys-half.webp",
+        "third": "colorguys-third.webp"
+    },
+    "showcase": "more-games"
 }

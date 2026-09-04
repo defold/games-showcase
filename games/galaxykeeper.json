@@ -7,8 +7,9 @@
     "releasedate": "July 2022",
     "platforms": "iOS, Android, HTML5",
     "images": {
-        "full": "galaxykeeper-full.jpeg",
-        "half": "galaxykeeper-half.jpeg",
-        "third": "galaxykeeper-third.jpeg"
-    }
+        "full": "galaxykeeper-full.webp",
+        "half": "galaxykeeper-half.webp",
+        "third": "galaxykeeper-third.webp"
+    },
+    "showcase": "half"
 }

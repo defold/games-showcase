@@ -3,12 +3,13 @@
 	"description": "Match cards, rescue Faeries, and raise Magical Pets as you explore the many and vast enchanted worlds of Faerie Solitaire Harvest!",
 	"url": "https://store.steampowered.com/app/348910/Faerie_Solitaire_Harvest",
 	"images": {
-		"full": "fsh-full.jpg",
-		"half": "fsh-half.png",
-		"third": "fsh-third.png"
+		"full": "fsh-full.webp",
+		"half": "fsh-half.webp",
+		"third": "fsh-third.webp"
 	},
 	"developer": "Subsoap",
 	"publisher": "Puppygames",
 	"platforms": "iOS, Android, Desktop",
-	"releasedate": "2019"
+	"releasedate": "2019",
+	"showcase": "more-games"
 }

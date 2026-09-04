@@ -7,8 +7,9 @@
     "releasedate": "February 24, 2025",
     "platforms": "Android",
     "images": {
-        "full": "shiboriland-full.png",
-        "half": "shiboriland-half.png",
-        "third": "shiboriland-third.png"
-    }
+        "full": "shiboriland-full.webp",
+        "half": "shiboriland-half.webp",
+        "third": "shiboriland-third.webp"
+    },
+    "showcase": "more-games"
 }

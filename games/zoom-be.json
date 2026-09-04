@@ -5,10 +5,11 @@
     "developer": "Flazm",
     "publisher": "Poki",
     "release_date": "May 2020",
-    "platforms": "Switch, Poki, iOS, Android, HTML5",
+    "platforms": "Nintendo Switch, Poki, iOS, Android, HTML5",
     "images": {
-        "full": "zoom-be-full.png",
-        "half": "zoom-be-half.png",
-        "third": "zoom-be-third.png"
-    }
+        "full": "zoom-be-full.webp",
+        "half": "zoom-be-half.webp",
+        "third": "zoom-be-third.webp"
+    },
+    "showcase": "more-games"
 }

@@ -7,8 +7,9 @@
     "releasedate": "November 2023",
     "platforms": "Android, HTML5, Poki",
     "images": {
-        "full": "blocky-universe-full.png",
-        "half": "blocky-universe-half.png",
-        "third": "blocky-universe-third.png"
-    }
+        "full": "blocky-universe-full.webp",
+        "half": "blocky-universe-half.webp",
+        "third": "blocky-universe-third.webp"
+    },
+    "showcase": "half"
 }

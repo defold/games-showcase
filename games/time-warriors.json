@@ -7,8 +7,9 @@
     "release_date": "October 2024",
     "platforms": "iOS, Web",
     "images": {
-        "full": "time-warriors-full.png",
-        "half": "time-warriors-half.png",
-        "third": "time-warriors-third.png"
-    }
+        "full": "time-warriors-full.webp",
+        "half": "time-warriors-half.webp",
+        "third": "time-warriors-third.webp"
+    },
+    "showcase": "half"
 }

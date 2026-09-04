@@ -7,8 +7,9 @@
     "releasedate": "February 2019",
     "platforms": "HTML5",
     "images": {
-        "full": "rocket-run-full.png",
-        "half": "rocket-run-half.png",
-        "third": "rocket-run-third.png"
-    }
+        "full": "rocket-run-full.webp",
+        "half": "rocket-run-half.webp",
+        "third": "rocket-run-third.webp"
+    },
+    "showcase": "more-games"
 }

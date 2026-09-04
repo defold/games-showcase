@@ -7,8 +7,9 @@
     "releasedate": "July 2024",
     "platforms": "Web, Android",
     "images": {
-        "full": "piece-of-cake-full.png",
-        "half": "piece-of-cake-half.png",
-        "third": "piece-of-cake-third.png"
-    }
+        "full": "piece-of-cake-full.webp",
+        "half": "piece-of-cake-half.webp",
+        "third": "piece-of-cake-third.webp"
+    },
+    "showcase": "full"
 }

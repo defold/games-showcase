@@ -5,10 +5,12 @@
     "developer": "Happy Games Studio",
     "publisher": "",
     "release_date": "2021",
-    "platforms": "iOS,Android,macOS,Windows,Linux,HTML5,Steam,Poki,itch.io,Kongregate,Facebook Instant Games",
+    "platforms": "iOS, Android, macOS, Windows, Linux, HTML5, Steam, Poki, itch.io, Kongregate, Facebook Instant Games",
     "images": {
-        "full": "hotel-rush-full.png",
-        "half": "hotel-rush-half.png",
-        "third": "hotel-rush-third.png"
-    }
+        "full": "hotel-rush-full.webp",
+        "half": "hotel-rush-half.webp",
+        "third": "hotel-rush-third.webp"
+    },
+    "releasedate": "2021",
+    "showcase": "full"
 }

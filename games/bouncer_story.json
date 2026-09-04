@@ -3,12 +3,13 @@
 	"description": "Bouncer Story is a retro styled RPG/management game. The game has a unique setting of playing as a bouncer at a bar and the story evolves based on the choices you make in the game. You need to balance your incomes wisely to make your living and pay back your gambling debt to the mafia.",
 	"url": "https://store.steampowered.com/app/1395900/Bouncer_Story/",
 	"images": {
-		"full": "bouncer_story-full.png",
-		"half": "bouncer_story-half.png",
-		"third": "bouncer_story-third.png"
+		"full": "bouncer_story-full.webp",
+		"half": "bouncer_story-half.webp",
+		"third": "bouncer_story-third.webp"
 	},
 	"developer": "Helmi Games",
 	"publisher": "",
 	"platforms": "Desktop (Steam), iOS, Android",
-	"releasedate": "2019"
+	"releasedate": "2019",
+	"showcase": "more-games"
 }
