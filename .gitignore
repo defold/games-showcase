@@ -2,3 +2,7 @@
 .DS_Store
 Thumbs.db
 /super-linter.log
+/.showcase-work/
+/.venv/
+__pycache__/
+*.py[cod]
