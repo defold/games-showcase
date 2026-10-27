@@ -1,0 +1,15 @@
+{
+    "description": "A retro-style, roguelite, top-down bullet hell shooter with per-round progression and only one life.",
+    "developer": "Eritze",
+    "images": {
+        "full": "",
+        "half": "iron_wand-half.webp",
+        "third": "iron_wand-third.webp"
+    },
+    "name": "Iron Wand",
+    "platforms": "HTML5, itch.io",
+    "publisher": "",
+    "releasedate": "2026",
+    "showcase": "half",
+    "url": "https://eritze.itch.io/iron-wand"
+}
