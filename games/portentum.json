@@ -1,0 +1,15 @@
+{
+    "description": "The cryptid deck-building auto battler. Hunt for broken combos with cryptids like Bigfoot, Jimothy, Nessie, and the Chupacabra. If somebody's uncle saw it in the woods in 1973, there's a good chance it's a card in Portentum.",
+    "developer": "Snowfall Games",
+    "images": {
+        "full": "portentum-full.webp",
+        "half": "portentum-half.webp",
+        "third": "portentum-third.webp"
+    },
+    "name": "Portentum",
+    "platforms": "Windows, macOS, Linux, SteamOS, Steam",
+    "publisher": "Snowfall Games",
+    "releasedate": "October 28, 2026",
+    "showcase": "full",
+    "url": "https://portentum.game/"
+}
