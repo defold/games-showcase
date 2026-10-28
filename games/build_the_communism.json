@@ -1,0 +1,15 @@
+{
+    "description": "Greetings, comrade! The Party needs your engineering skills to build the 'Socialist Paradise'! This ironic, retro tower builder game evokes the classic arcade atmosphere of the 80s and 90s with its nostalgic visuals.",
+    "developer": "Gabrowski",
+    "images": {
+        "full": "",
+        "half": "build_the_communism-half.webp",
+        "third": "build_the_communism-third.webp"
+    },
+    "name": "Build The Communism",
+    "platforms": "Android",
+    "publisher": "",
+    "releasedate": "2026",
+    "showcase": "half",
+    "url": "https://play.google.com/store/apps/details?id=com.gabrowski.btc"
+}
