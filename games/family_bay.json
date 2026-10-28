@@ -1,0 +1,15 @@
+{
+    "description": "Help Eva, Bruce, Lizzy, and Timmy make a fresh start on a sun-soaked island. Merge items to fulfill the islanders' orders, earn coins, and turn a wild stretch of coastline into a welcoming family home. Grow your farm, upgrade buildings, decorate your island, and explore the bay as a colorful family adventure unfolds around every merge.",
+    "developer": "Moon Active",
+    "images": {
+        "full": "family_bay-full.webp",
+        "half": "",
+        "third": "family_bay-full.webp"
+    },
+    "name": "Family Bay",
+    "platforms": "iOS, Android",
+    "publisher": "",
+    "releasedate": "2026",
+    "showcase": "full",
+    "url": "https://play.google.com/store/apps/details?id=com.moonactive.familymerge"
+}
