@@ -1,0 +1,15 @@
+{
+    "description": "Top-down multiplayer space combat, live in your browser. Totally free on desktop and mobile.",
+    "developer": "Chris Riccomini",
+    "images": {
+        "full": "",
+        "half": "vectorwake-half.webp",
+        "third": "vectorwake-third.webp"
+    },
+    "name": "Vectorwake",
+    "platforms": "HTML5",
+    "publisher": "",
+    "releasedate": "August 14, 2026",
+    "showcase": "half",
+    "url": "https://play.vectorwake.net"
+}
